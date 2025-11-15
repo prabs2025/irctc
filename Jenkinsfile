@@ -3,10 +3,8 @@ pipeline {
     stages {
         stage ('Building') {
             steps{
-                sh ...
-		date
-		cal 2025
-		...
+                sh 'date'
+		sh 'cal 2025'
             }
         } 
     }
